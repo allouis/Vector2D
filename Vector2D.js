@@ -19,6 +19,13 @@ Vector2D.prototype = {
         this.x += args.x;
         this.y += args.y;
         return this;
+    },
+
+    sub: function(){
+        var args = parseArgs(arguments);
+        this.x -= args.x;
+        this.y -= args.y;
+        return this;
     }
 
 };
