@@ -10,3 +10,11 @@ function Vector2D(){
         this.y = args[0].y
     }
 }
+
+Vector2D.prototype = {
+
+    clone: function(){
+        return new Vector2D(this);
+    }
+
+}
