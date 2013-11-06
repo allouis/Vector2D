@@ -4,7 +4,7 @@
   "description": "2D Vector lib",
   "main": "Vector2D.js",
   "scripts": {
-    "test": "mocha tests"
+    "test": "mocha -R spec tests"
   },
   "repository": {
     "type": "git",
