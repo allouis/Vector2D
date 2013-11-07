@@ -1,6 +1,6 @@
 var Vector2D    = require("../Vector2D"),
     assert      = require("assert"),
-    point, clone;
+    point;
 
 describe("Vector2D:: scale", function(){
 
